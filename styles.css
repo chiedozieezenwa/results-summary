@@ -1,0 +1,147 @@
+body {
+  width: 98vw;
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+main {
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: white;
+  width: 700px;
+  height: 350px;
+  display: flex;
+}
+
+section.left {
+  background-color: hsl(241, 81%, 54%);
+  border-radius: 10px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  color: hsl(0, 9%, 84%);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+section.left > .circle {
+  width: 30%;
+  height: 30%;
+  border-radius: 100%;
+  background-color: hsla(256, 72%, 46%, 1);
+  color: hsl(0, 9%, 84%);
+  text-align: center;
+}
+
+section.left > .square {
+  width: 75%;
+  text-align: center;
+  color: hsl(0, 9%, 84%);
+}
+
+.square > .remark {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.left > .circle > p > span {
+  font-weight: bolder;
+  font-size: 45px;
+  color: white;
+}
+
+section.right {
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.summary {
+  margin-bottom: 0;
+  margin-left: 1.6rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+  font-size: small;
+  width: 80%;
+  height: 12%;
+}
+
+.icon > p > span {
+  font-weight: bold;
+}
+
+.box-content {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.first-box {
+  background-color: #ebe5e5;
+  border-radius: 5px;
+}
+.reaction {
+  color: hsl(0, 100%, 67%);
+}
+
+.second-box {
+  background-color: #f5eee0;
+  border-radius: 5px;
+}
+.memory {
+  color: hsl(39, 100%, 56%);
+}
+
+.third-box {
+  background-color: #f1fcf7;
+  border-radius: 5px;
+}
+.verbal {
+  color: hsl(166, 100%, 37%);
+}
+
+.fourth-box {
+  background-color: #e9f1fd;
+  border-radius: 5px;
+}
+.visual {
+  color: hsl(234, 85%, 45%);
+}
+
+button {
+  background-color: hsl(224, 30%, 27%);
+  border-color: hsl(224, 30%, 27%);
+  color: white;
+  width: 80%;
+  height: 12%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
