@@ -175,3 +175,26 @@ button {
     border-radius: 0;
   }
 }
+
+@media (max-width: 375px) {
+  main {
+    width: 350px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.left,
+  section.right {
+    width: 100%;
+    height: 100%;
+  }
+
+  section.left {
+    border-radius: 0 0 10px 10px;
+  }
+
+  section.right {
+    border-radius: 0;
+  }
+}
